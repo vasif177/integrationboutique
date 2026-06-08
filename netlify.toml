@@ -2,18 +2,6 @@
 
 [build]
   publish = "."
-  command = "echo 'No build required - static site'"
-
-# Form notifications - sends to your email
-[[plugins]]
-  package = "@netlify/plugin-form-notifications"
-
-# Email notification settings for form submissions
-[plugins.inputs]
-  # Email will be sent to this address
-  to = "connect@integrationboutique.com"
-  # Subject will be dynamically set by form submission
-  # Format: 🎯 New Consultation: [Company Name] - [Service]
 
 # Headers for security
 [[headers]]
